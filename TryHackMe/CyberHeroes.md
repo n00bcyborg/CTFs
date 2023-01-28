@@ -1,7 +1,6 @@
 
-# Cyber Heroes Walkthrough
+# CyberHeroes Walkthrough
 ## Box available at: https://tryhackme.com/room/cyberheroes
-## Video walkthrough available at: https://youtu.be/qvzDJkLVD_4
 
 # Reconnaissance
 The first step for any ctf is to do a network scan using nmap. The results show the existence of a web server on port 80.
