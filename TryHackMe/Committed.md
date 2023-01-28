@@ -1,7 +1,6 @@
 
 # Cyber Heroes Walkthrough
-## Box available at: https://tryhackme.com/room/cyberheroes
-## Video walkthrough available at: https://youtu.be/qvzDJkLVD_4
+## Box available at: https://tryhackme.com/room/committed
 
 # Reconnaissance
 The first step for any ctf is to do a network scan using nmap. The results show the existence of a web server on port 80.
@@ -13,7 +12,7 @@ After looking through the website, there is a login page.
 Looking through the source code, we find our credentials.
 ![Untitled](https://user-images.githubusercontent.com/20043220/177041041-28a7fa50-d890-42ed-818a-bcd079b5836e.png)
 
-# Compromise
+# Comprimise
 The code shows a function that reverses the entered password and compares to a hardcoded one. Reversing this hardcoded password gives us our real password.
 ![Untitled](https://user-images.githubusercontent.com/20043220/177041127-0cd5eaaa-0403-4909-ae9a-efb06c97b983.png)
 
